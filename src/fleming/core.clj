@@ -22,7 +22,7 @@
 
 (defn translate-useragent
   [ua]
-  (g/translate translator ua {:lazy? false}))
+  (g/translate translator ua {}))
 
 (defn parse-ua
   ([^UserAgentStringParser parser ^String ua]
