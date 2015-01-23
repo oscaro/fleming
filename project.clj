@@ -6,4 +6,6 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [net.sf.uadetector/uadetector-resources "2014.10"]
                  [gavagai "0.3.2"]
-                 [org.clojure/core.memoize "0.5.6"]])
+                 [org.clojure/core.memoize "0.5.6"]]
+  :profiles {:dev {:dependencies [[expectations "2.0.9"]]
+                   :plugins [[lein-expectations "0.0.7"]]}})
