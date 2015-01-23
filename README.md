@@ -1,6 +1,16 @@
+[![Build Status](https://travis-ci.org/oscaro/fleming.svg?branch=master)](https://travis-ci.org/oscaro/fleming)
+
 # fleming
 
 Small library for browser user agent identification, based on the UADetector Java library.
+
+## Installation ##
+
+Latest stable version:
+
+[![Clojars Project](http://clojars.org/com.oscaro/fleming/latest-version.svg)](http://clojars.org/com.oscaro/fleming)
+
+Add this to your dependencies in `project.clj`.
 
 ## Usage
 
